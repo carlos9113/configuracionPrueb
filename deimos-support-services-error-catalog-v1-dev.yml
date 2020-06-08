@@ -1,0 +1,141 @@
+systemErrorList:
+- errorCode: JA0002
+  description: Los datos proporcionados no son validos xxxxxxxxxx.
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0004
+  description: Ocurrio un error intentando invocar servicios externos. Por favor reintente nuevamente ******************.
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0999
+  description: Ocurrio un error inesperado. Por favor contactarse con el Soporte Tecnico.
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0000
+  description: El servicio se ejecuto de manera satisfactoria.
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0003
+  description: Los datos proporcionados no son validos.
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0011
+  description: Problemas de autenticacion/autorizacion en la invocacion al servicio
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0007
+  description: Ocurrio un error en el Backend.
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0008
+  description: El servicio se ejecuto con exito pero con advertencia debido a que solo devuelve datos de backends que respondieron conforme.
+  literalCode: CODE_IN_BACKEND_ERROR_GENERIC
+  operationCode: 
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0013
+  description: Funcionalidad no implementada.
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0001
+  description: No se encontro resultados para los criterios de busqueda.
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0012
+  description: Los datos proporcionados no cumplen con los criterios para ser procesados posteriormente
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0006
+  description: Los datos proporcionados no cumplen con los criterios para ser procesado.
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0010
+  description: Recurso no encontrado
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0009
+  description: Problemas de Timeout en el Servicio Backend
+  literalCode: CODE_BACKEND_TIMEOUT
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA0005
+  description: No se encontro el servidor solicitado.
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA9999
+  description: Ocurrio un error inesperado. Por favor contactarse con el Soporte Tecnico.
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA9998
+  description: Ocurrio error de envio de trama incorrecto
+  literalCode: ERROR_GENERIC
+  operationCode: null
+  errorTypeCode: GENERAL
+  applicationCode: JA
+  severityCode: Error
+- errorCode: JA9997, 
+  description: Ocurrio error de envio de trama incorrecto, 
+  literalCode: ERROR_GENERIC_NEW, 
+  operationCode: null, 
+  errorTypeCode: GENERAL, 
+  applicationCode: JA, 
+  severityCode: Error
+- errorCode: JA1007, 
+  description: Ocurrio error de envio de trama incorrecto, 
+  literalCode: ERROR_GENERIC_NEW, 
+  operationCode: null, 
+  errorTypeCode: GENERAL, 
+  applicationCode: JA, 
+  severityCode: Error
+providerErrorList:
+- providerErrorCode: PI0001
+  providerServiceCode: MB.CardInqV1
+  description: No se encontrÃ³ resultados para los criterios de bÃºsqueda
+  errorCode: JA0001
+  errorTypeCode: FUNCTIONAL
+  errorType: App
