@@ -5,4 +5,5 @@ spring:
     url: jdbc:oracle:thin:@docker.everisdigital.com:9521:XE
     username: everis
    jpa:
-    show-sql: true   
+    show-sql: true 
+   Dserver.port: 9003  
