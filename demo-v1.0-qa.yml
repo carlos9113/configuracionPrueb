@@ -1,0 +1,9 @@
+spring:
+   datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: everis
+    url: jdbc:oracle:thin:@docker.everisdigital.com:9521:XE
+    username: everis
+   jpa:
+    show-sql: true 
+   Dserver.port: 9005  
