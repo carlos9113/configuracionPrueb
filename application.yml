@@ -1,0 +1,31 @@
+spring:
+  cloud:
+    config:
+      name: ${spring.application.name}
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false 
+server:
+  servlet:
+    context-path: ${application.deimos.api.path}
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: ${application.deimos.api.path}/swagger/swagger2.json
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      base-path: ${application.deimos.api.path}/actuator
+application:
+  http-client:
+    deimos:
+      error-catalog:
+        base-url: http://localhost:9004
+        connect-timeout: 300
+        read-timeout: 1200
+        write-timeout: 700
+Dserver:
+  port: 9003
