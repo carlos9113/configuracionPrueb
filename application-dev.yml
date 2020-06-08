@@ -27,3 +27,5 @@ application:
         connect-timeout: 300
         read-timeout: 1200
         write-timeout: 700
+Dserver:
+  port=9003
