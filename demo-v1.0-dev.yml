@@ -6,4 +6,5 @@ spring:
     username: everis
    jpa:
     show-sql: true 
-   Dserver.port: 9003  
+   Dserver:
+    port: 9004  
