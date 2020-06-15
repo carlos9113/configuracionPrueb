@@ -8,6 +8,7 @@ spring:
 server:
   servlet:
     context-path: ${application.deimos.api.path}
+  port: 9003
 springfox:
   documentation:
     swagger:
@@ -19,5 +20,5 @@ management:
       exposure:
         include: '*'
       base-path: ${application.deimos.api.path}/actuator
-server:
-  port: 9003
+
+  
